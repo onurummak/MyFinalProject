@@ -5,10 +5,10 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    public interface IProductService
+    public interface ICategoryService
     {
         List<Category> GetAll();
-        List<Category> GetAllByCategoryId(int id);
+        List<Category> GetById(int categoryId);
 
     }
 }
